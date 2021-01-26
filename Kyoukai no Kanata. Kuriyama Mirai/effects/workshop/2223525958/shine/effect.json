@@ -1,0 +1,98 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2223525958/effects/shine_downsample2.json",
+		"materials/workshop/2223525958/effects/shine_cast.json",
+		"materials/workshop/2223525958/effects/shine_gaussian_x.json",
+		"materials/workshop/2223525958/effects/shine_gaussian_y.json",
+		"materials/workshop/2223525958/effects/shine_combine.json",
+		"shaders/workshop/2223525958/effects/shine_downsample2.frag",
+		"shaders/workshop/2223525958/effects/shine_downsample2.vert",
+		"shaders/workshop/2223525958/effects/shine_cast.frag",
+		"shaders/workshop/2223525958/effects/shine_cast.vert",
+		"shaders/workshop/2223525958/effects/shine_gaussian.frag",
+		"shaders/workshop/2223525958/effects/shine_gaussian.vert",
+		"shaders/workshop/2223525958/effects/shine_combine.frag",
+		"shaders/workshop/2223525958/effects/shine_combine.vert"
+	],
+	"description" : "ui_editor_effect_shine_description",
+	"fbos" : 
+	[
+		{
+			"format" : "rgba8888",
+			"name" : "_rt_HalfCompoBuffer1",
+			"scale" : 2
+		},
+		{
+			"format" : "rgba8888",
+			"name" : "_rt_HalfCompoBuffer2",
+			"scale" : 2
+		}
+	],
+	"group" : "enhance",
+	"name" : "ui_editor_effect_shine_title",
+	"passes" : 
+	[
+		{
+			"bind" : 
+			[
+				{
+					"index" : 0,
+					"name" : "previous"
+				}
+			],
+			"material" : "materials/workshop/2223525958/effects/shine_downsample2.json",
+			"target" : "_rt_HalfCompoBuffer1"
+		},
+		{
+			"bind" : 
+			[
+				{
+					"index" : 0,
+					"name" : "_rt_HalfCompoBuffer1"
+				}
+			],
+			"material" : "materials/workshop/2223525958/effects/shine_cast.json",
+			"target" : "_rt_HalfCompoBuffer2"
+		},
+		{
+			"bind" : 
+			[
+				{
+					"index" : 0,
+					"name" : "_rt_HalfCompoBuffer2"
+				}
+			],
+			"material" : "materials/workshop/2223525958/effects/shine_gaussian_x.json",
+			"target" : "_rt_HalfCompoBuffer1"
+		},
+		{
+			"bind" : 
+			[
+				{
+					"index" : 0,
+					"name" : "_rt_HalfCompoBuffer1"
+				}
+			],
+			"material" : "materials/workshop/2223525958/effects/shine_gaussian_y.json",
+			"target" : "_rt_HalfCompoBuffer2"
+		},
+		{
+			"bind" : 
+			[
+				{
+					"index" : 0,
+					"name" : "_rt_HalfCompoBuffer2"
+				},
+				{
+					"index" : 1,
+					"name" : "previous"
+				}
+			],
+			"material" : "materials/workshop/2223525958/effects/shine_combine.json"
+		}
+	],
+	"preview" : "preview/project.json",
+	"replacementkey" : "shine",
+	"version" : 1
+}

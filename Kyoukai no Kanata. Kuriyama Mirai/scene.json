@@ -1,0 +1,465 @@
+{
+	"camera" : 
+	{
+		"center" : "161.51340 277.44473 -1.00000",
+		"eye" : "161.51340 277.44473 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.10000000149011612,
+		"bloomhdrscatter" : 1.6189999580383301,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999997615814209,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.10000000149011612,
+		"cameraparallaxmouseinfluence" : 0.0,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.00000 0.00000 0.00000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999997764825821,
+		"orthogonalprojection" : 
+		{
+			"height" : 2160,
+			"width" : 3840
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 126,
+					"name" : "Встряска дыхание",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1,
+								"strength" : 0.050000000000000003
+							},
+							"id" : 0,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_982fa1aeb3688d0ff0c8b226cee7b571f4b65b01",
+								"masks/shake_mask_1ef2dc711e56e5e0b9900cba39335a0c17bb5d88",
+								"masks/shake_mask_6babda008b51fd7b752ad5d9750bb6e4875a6e42"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hestbreathing",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 153,
+					"name" : "Встряска всё",
+					"passes" : 
+					[
+						{
+							"id" : 154,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_1a2257adb44ee124e459745b3d42146f9981bfb0",
+								"masks/shake_mask_1d06300359cd2d12c49376e07b4f51b0e2af178c"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "shake",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 165,
+					"name" : "Встряска глаза",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"AUDIOPROCESSING" : 0,
+								"DIRECTION" : 1,
+								"NOISE" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"bounds" : "0.995 0.997",
+								"friction" : "1 1",
+								"speed" : 0.88,
+								"strength" : 0.17999999999999999
+							},
+							"id" : 166,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_2c5a9d691c6aa35a1c3509d1a8896c743d3875de",
+								"util/white",
+								"masks/shake_mask_3b5022c8251b22d81fb9ec294c5197e0bddd9bd4"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "blinkingeyes",
+						"value" : true
+					}
+				}
+			],
+			"id" : 122,
+			"image" : "models/Глаза_gimp.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "Глаза_gimp",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "3840.00000 2160.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 171,
+					"name" : "Встряска дыхание",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1,
+								"strength" : 0.050000000000000003
+							},
+							"id" : 172,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_982fa1aeb3688d0ff0c8b226cee7b571f4b65b01",
+								"masks/shake_mask_1ef2dc711e56e5e0b9900cba39335a0c17bb5d88",
+								"masks/shake_mask_6babda008b51fd7b752ad5d9750bb6e4875a6e42"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hestbreathing",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 174,
+					"name" : "Встряска рот",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"strength" : 0.10000000000000001
+							},
+							"id" : 175,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_14baecd88cd86197979e9592a3614e57bbd01235",
+								"util/white"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hestbreathing",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/waterflow/effect.json",
+					"id" : 179,
+					"name" : "Течение кровь",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phasescale" : 2,
+								"speed" : 0.14999999999999999,
+								"strength" : 0.33000000000000002
+							},
+							"id" : 180,
+							"textures" : 
+							[
+								null,
+								"waterflow_mask_475431a181bbf4d369e256b4aacd0346d7c8e291",
+								"effects/waterflowphase"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "bloodflow",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 185,
+					"name" : "Волны одежда",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 3.1415926535897931,
+								"perspective" : 0,
+								"scale" : 40,
+								"speed" : 3,
+								"strength" : 0.10000000000000001
+							},
+							"id" : 188,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_311bd945449b7f7add84a9c2c32156d73802b1c6"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "clothesanimation",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 193,
+					"name" : "Встряска кровь",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"speed" : 0.52000000000000002
+							},
+							"id" : 194,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_ee0d9bbc6d0516b8583c8fb3e841485c0b7ec4e8",
+								"masks/shake_mask_e1611df8f1e588fd7981faa0afd023597b832e78"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "bloodanimation",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 149,
+					"name" : "Встряска всё",
+					"passes" : 
+					[
+						{
+							"id" : 150,
+							"textures" : 
+							[
+								null,
+								"masks/shake_mask_1a2257adb44ee124e459745b3d42146f9981bfb0",
+								"masks/shake_mask_1d06300359cd2d12c49376e07b4f51b0e2af178c"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "shake",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 207,
+					"name" : "Волны волосы",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 2.3561944901923448,
+								"scale" : 24.760000000000002,
+								"speed" : 2.7400000000000002,
+								"strength" : 0.050000000000000003
+							},
+							"id" : 208,
+							"textures" : 
+							[
+								null,
+								"masks/waterwaves_mask_a659e77caae9d6359fec8af8206a0e6ce127ad65"
+							]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hairanimation",
+						"value" : true
+					}
+				}
+			],
+			"id" : 124,
+			"image" : "models/Дыры_gimp.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "Дыры_gimp",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "3840.00000 2160.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 -0.58019",
+			"id" : 248,
+			"instanceoverride" : 
+			{
+				"id" : 250
+			},
+			"locktransforms" : true,
+			"name" : "Пар",
+			"origin" : "1961.05774 1605.87415 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/fog1.json",
+			"scale" : "-0.39842 -0.39842 -0.39842",
+			"visible" : 
+			{
+				"user" : "steam",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 141,
+			"instanceoverride" : null,
+			"locktransforms" : true,
+			"name" : "Sakura",
+			"origin" : "1905.30127 1034.28687 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/leaves5.json",
+			"scale" : "2.00000 2.00000 1.00000",
+			"visible" : 
+			{
+				"user" : "sakura",
+				"value" : false
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 18,
+			"instanceoverride" : 
+			{
+				"id" : 9
+			},
+			"locktransforms" : true,
+			"name" : "Snow perspective",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/snowperspective.json",
+			"scale" : "2.00000 2.00000 1.00000",
+			"visible" : 
+			{
+				"user" : "snow",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 233,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.20000000298023224,
+				"id" : 234
+			},
+			"locktransforms" : true,
+			"name" : "fog1 left",
+			"origin" : "247.45557 108.95526 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/fog1.json",
+			"scale" : "2.00000 2.00000 1.00000",
+			"visible" : 
+			{
+				"user" : "fog",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 242,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.079999998211860657,
+				"id" : null
+			},
+			"locktransforms" : true,
+			"name" : "fog1 right",
+			"origin" : "3155.08276 139.15723 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/fog1.json",
+			"scale" : "2.00000 2.00000 1.00000",
+			"visible" : 
+			{
+				"user" : "fog",
+				"value" : true
+			}
+		}
+	],
+	"version" : 1
+}

@@ -1,0 +1,26 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "translucent",
+			"combos" : 
+			{
+				"REFRACT" : 1
+			},
+			"constantshadervalues" : 
+			{
+				"ui_editor_properties_overbright" : 1.8200000000000001,
+				"ui_editor_properties_refract_amount" : 0.92000000000000004
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "disabled",
+			"depthwrite" : "disabled",
+			"shader" : "genericparticle",
+			"textures" : 
+			[
+				"workshop/2223525958/particle/brokenGlass3",
+				"workshop/2223525958/particle/brokenGlass3"
+			]
+		}
+	]
+}

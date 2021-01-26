@@ -1,0 +1,145 @@
+{
+	"animationmode" : "sequence",
+	"children" : [],
+	"controlpoint" : 
+	[
+		{
+			"flags" : 0,
+			"id" : 0,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 1,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 2,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 3,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 4,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 5,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 6,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 7,
+			"offset" : "0 0 0"
+		}
+	],
+	"emitter" : 
+	[
+		{
+			"distancemax" : 20,
+			"distancemin" : 0,
+			"id" : 8,
+			"name" : "sphererandom",
+			"rate" : 10
+		}
+	],
+	"flags" : 0,
+	"initializer" : 
+	[
+		{
+			"id" : 2,
+			"max" : 4,
+			"min" : 3,
+			"name" : "lifetimerandom"
+		},
+		{
+			"forward" : "0 0.25 0",
+			"id" : 3,
+			"name" : "turbulentvelocityrandom",
+			"scale" : 0.10000000000000001,
+			"speedmax" : 100,
+			"speedmin" : 50,
+			"up" : "0 0 0"
+		},
+		{
+			"id" : 4,
+			"max" : 700,
+			"min" : 500,
+			"name" : "sizerandom"
+		},
+		{
+			"id" : 5,
+			"name" : "rotationrandom"
+		},
+		{
+			"exponent" : 1,
+			"id" : 6,
+			"min" : "255 255 255",
+			"name" : "colorrandom"
+		},
+		{
+			"id" : 7,
+			"max" : "10 32 0",
+			"min" : "0 0 0",
+			"name" : "velocityrandom"
+		}
+	],
+	"material" : "materials/workshop/2223525958/presets/smoke1.json",
+	"maxcount" : 6,
+	"operator" : 
+	[
+		{
+			"drag" : 0.20000000000000001,
+			"id" : 9,
+			"name" : "movement"
+		},
+		{
+			"endvalue" : 1,
+			"id" : 10,
+			"name" : "sizechange",
+			"startvalue" : 0.10000000000000001
+		},
+		{
+			"frequencymax" : 3,
+			"frequencymin" : 2,
+			"id" : 11,
+			"name" : "oscillatealpha",
+			"phasemin" : 5
+		},
+		{
+			"fadeintime" : 2,
+			"fadeouttime" : 2,
+			"id" : 12,
+			"name" : "alphafade"
+		},
+		{
+			"id" : 13,
+			"name" : "alphafade"
+		},
+		{
+			"id" : 14,
+			"name" : "alphachange",
+			"startvalue" : 0.5
+		}
+	],
+	"renderer" : 
+	[
+		{
+			"id" : 1,
+			"name" : "sprite"
+		}
+	],
+	"sequencemultiplier" : 2,
+	"starttime" : 10
+}

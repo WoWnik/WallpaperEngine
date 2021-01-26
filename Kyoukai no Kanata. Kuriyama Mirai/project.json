@@ -1,0 +1,115 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Kyoukai no Kanata: Kuriyama Mirai\r\nOriginal: https://gitlab.com/WoWnik/images/-/blob/master/psh/mirai%20wall/726305_contra_contur7_ふゆかい%20です.png\r\nOriginal of original: https://gitlab.com/WoWnik/images/-/blob/master/psh/mirai%20wall/726305.png",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"blinkingeyes" : 
+			{
+				"index" : 10,
+				"order" : 110,
+				"text" : "Blinking eyes",
+				"type" : "bool",
+				"value" : true
+			},
+			"bloodanimation" : 
+			{
+				"index" : 5,
+				"order" : 105,
+				"text" : "Blood animation",
+				"type" : "bool",
+				"value" : true
+			},
+			"bloodflow" : 
+			{
+				"index" : 6,
+				"order" : 106,
+				"text" : "Blood flow",
+				"type" : "bool",
+				"value" : true
+			},
+			"clothesanimation" : 
+			{
+				"index" : 7,
+				"order" : 107,
+				"text" : "Clothes animation",
+				"type" : "bool",
+				"value" : true
+			},
+			"fog" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "Fog",
+				"type" : "bool",
+				"value" : true
+			},
+			"hairanimation" : 
+			{
+				"index" : 9,
+				"order" : 109,
+				"text" : "Hair animation",
+				"type" : "bool",
+				"value" : true
+			},
+			"hestbreathing" : 
+			{
+				"index" : 4,
+				"order" : 104,
+				"text" : "Breathing",
+				"type" : "bool",
+				"value" : true
+			},
+			"sakura" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "Sakura",
+				"type" : "bool",
+				"value" : false
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"shake" : 
+			{
+				"index" : 8,
+				"order" : 108,
+				"text" : "Shake",
+				"type" : "bool",
+				"value" : true
+			},
+			"snow" : 
+			{
+				"condition" : "",
+				"index" : 1,
+				"order" : 101,
+				"text" : "Snow",
+				"type" : "bool",
+				"value" : true
+			},
+			"steam" : 
+			{
+				"index" : 3,
+				"order" : 103,
+				"text" : "Steam",
+				"type" : "bool",
+				"value" : true
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Anime" ],
+	"title" : "Kyoukai no Kanata: Kuriyama Mirai. ふゆかい です",
+	"type" : "scene",
+	"version" : 18,
+	"visibility" : "public",
+	"workshopid" : "2338295019",
+	"workshopurl" : "steam://url/CommunityFilePage/2338295019"
+}

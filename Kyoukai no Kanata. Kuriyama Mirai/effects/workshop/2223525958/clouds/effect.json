@@ -1,0 +1,20 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2223525958/effects/clouds.json",
+		"shaders/workshop/2223525958/effects/clouds.frag",
+		"shaders/workshop/2223525958/effects/clouds.vert"
+	],
+	"description" : "ui_editor_effect_clouds_description",
+	"group" : "colorize",
+	"name" : "ui_editor_effect_clouds_title",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/2223525958/effects/clouds.json"
+		}
+	],
+	"preview" : "preview/project.json",
+	"replacementkey" : "clouds",
+	"version" : 1
+}

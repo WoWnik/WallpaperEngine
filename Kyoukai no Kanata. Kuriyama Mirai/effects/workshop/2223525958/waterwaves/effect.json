@@ -1,0 +1,20 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/2223525958/effects/waterwaves.json",
+		"shaders/workshop/2223525958/effects/waterwaves.frag",
+		"shaders/workshop/2223525958/effects/waterwaves.vert"
+	],
+	"description" : "ui_editor_effect_water_waves_description",
+	"group" : "animate",
+	"name" : "ui_editor_effect_water_waves_title",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/2223525958/effects/waterwaves.json"
+		}
+	],
+	"preview" : "preview/project.json",
+	"replacementkey" : "waterwaves",
+	"version" : 1
+}
