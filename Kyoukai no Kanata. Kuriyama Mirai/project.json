@@ -1,6 +1,6 @@
 {
 	"contentrating" : "Everyone",
-	"description" : "Kyoukai no Kanata: Kuriyama Mirai\r\nOriginal: https://gitlab.com/WoWnik/images/-/blob/master/psh/mirai%20wall/726305_contra_contur7_ふゆかい%20です.png\r\nOriginal of original: https://gitlab.com/WoWnik/images/-/blob/master/psh/mirai%20wall/726305.png",
+	"description" : "Kyoukai no Kanata: Kuriyama Mirai\r\n\r\nArtist: https://www.pixiv.net/en/users/418969\r\n\r\nSrc: https://github.com/WoWnik/WallpaperEngine/tree/main/Kyoukai%20no%20Kanata.%20Kuriyama%20Mirai\r\nTID art: https://www.pixiv.net/en/artworks/39014201\r\nWoWnik art: https://gitlab.com/WoWnik/images/-/blob/master/psh/mirai%20wall/726305_contra_contur7_ふゆかい%20です.png",
 	"file" : "scene.json",
 	"general" : 
 	{
@@ -62,6 +62,14 @@
 				"type" : "bool",
 				"value" : true
 			},
+			"hidetext" : 
+			{
+				"index" : 11,
+				"order" : 111,
+				"text" : "Hide text",
+				"type" : "bool",
+				"value" : true
+			},
 			"sakura" : 
 			{
 				"index" : 2,
@@ -107,8 +115,8 @@
 	"preview" : "preview.jpg",
 	"tags" : [ "Anime" ],
 	"title" : "Kyoukai no Kanata: Kuriyama Mirai. ふゆかい です",
-	"type" : "scene",
-	"version" : 18,
+	"type" : "Scene",
+	"version" : 20,
 	"visibility" : "public",
 	"workshopid" : "2338295019",
 	"workshopurl" : "steam://url/CommunityFilePage/2338295019"

@@ -1,8 +1,8 @@
 {
 	"camera" : 
 	{
-		"center" : "161.51340 277.44473 -1.00000",
-		"eye" : "161.51340 277.44473 0.00000",
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
 		"up" : "0.00000 1.00000 0.00000"
 	},
 	"general" : 
@@ -365,6 +365,31 @@
 			"size" : "3840.00000 2160.00000",
 			"solid" : true,
 			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 72,
+			"image" : "models/Без имени.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "Без имени",
+			"origin" : "804.93848 1437.42053 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "200.00000 600.00000 8.06000",
+			"size" : "2.00000 2.00000",
+			"solid" : true,
+			"visible" : 
+			{
+				"user" : "hidetext",
+				"value" : true
+			}
 		},
 		{
 			"angles" : "0.00000 0.00000 -0.58019",
