@@ -1,0 +1,315 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999998,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.1,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 1280,
+			"width" : 591
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 20,
+					"name" : "Волосы бэк",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 0.0,
+								"perspective" : 0.0099999998,
+								"scale" : 244.61,
+								"speed" : 1.63,
+								"strength" : 0.059999999
+							},
+							"id" : 21,
+							"textures" : [ null, "masks/waterwaves_mask_6fde7a27" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 52,
+					"name" : "Волосы Рей",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 0.0,
+								"perspective" : 0.0099999998,
+								"scale" : 244.61,
+								"speed" : 1.8099999,
+								"strength" : 0.050000001
+							},
+							"id" : 53,
+							"textures" : [ null, "masks/waterwaves_mask_ce355b32" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 67,
+					"name" : "Волосы Синдзи",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -2.926235,
+								"perspective" : 0.0099999998,
+								"scale" : 154.67999,
+								"speed" : 2.53,
+								"strength" : 0.0099999998
+							},
+							"id" : 68,
+							"textures" : [ null, "masks/waterwaves_mask_ee1a2cce" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 95,
+					"name" : "Волосы фронт",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -1.2268271,
+								"perspective" : 0.0099999998,
+								"scale" : 39.580002,
+								"speed" : 1.8099999,
+								"strength" : 0.059999999
+							},
+							"id" : 96,
+							"textures" : [ null, "masks/waterwaves_mask_a91ac757" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 217,
+					"name" : "Волосы Аска",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -0.67474091,
+								"perspective" : 0.02,
+								"scale" : 172.67,
+								"speed" : 0.73000002,
+								"strength" : 0.11
+							},
+							"id" : 218,
+							"textures" : [ null, "masks/waterwaves_mask_bf176b03" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 232,
+					"name" : "Одежда Аска",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -0.76214653,
+								"perspective" : 0,
+								"scale" : 158.28,
+								"speed" : 3.25,
+								"strength" : 0.090000004
+							},
+							"id" : 233,
+							"textures" : [ null, "masks/waterwaves_mask_e2f47682" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 255,
+					"name" : "Одежда Фронт",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -0.62024951,
+								"perspective" : 0.050000001,
+								"scale" : 39.580002,
+								"speed" : 2.53,
+								"strength" : 0.029999999
+							},
+							"id" : 256,
+							"textures" : [ null, "masks/waterwaves_mask_4a9108b1" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 310,
+					"name" : "Одежда Синдзи",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -0.78539819,
+								"perspective" : 0.0099999998,
+								"scale" : 251.81,
+								"speed" : 5.2199998,
+								"strength" : 0.059999999
+							},
+							"id" : 311,
+							"textures" : [ null, "masks/waterwaves_mask_4afaa522" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 469,
+					"name" : "Одежда Рей",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -1.4758446,
+								"perspective" : 0,
+								"scale" : 248.21001,
+								"speed" : 2.71,
+								"strength" : 0.059999999
+							},
+							"id" : 470,
+							"textures" : [ null, "masks/waterwaves_mask_bf82bfbc" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 572,
+					"name" : "Одежда бек",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -0.87605804,
+								"perspective" : 0.0099999998,
+								"scale" : 575.53998,
+								"speed" : 2.8900001,
+								"strength" : 0.059999999
+							},
+							"id" : 573,
+							"textures" : [ null, "masks/waterwaves_mask_b19b72dd" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 14,
+			"image" : "models/photo_2021-09-17_17-56-34.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "photo_2021-09-17_17-56-34",
+			"origin" : "295.50000 640.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.07083 1.07083 1.07083",
+			"size" : "675.00000 1200.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 -1.57080",
+			"id" : 82,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.67000002,
+				"id" : 83,
+				"size" : 5.0
+			},
+			"locktransforms" : false,
+			"name" : "Dust motes",
+			"origin" : "301.01285 627.51166 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/dust_motes_0.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 87,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.44999999,
+				"id" : 88,
+				"size" : 2.0
+			},
+			"locktransforms" : true,
+			"name" : "Light shafts 1",
+			"origin" : "330.73367 654.68774 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/light_shafts_1.json",
+			"scale" : "-1.00000 1.00000 1.00000",
+			"visible" : true
+		}
+	],
+	"version" : 1
+}

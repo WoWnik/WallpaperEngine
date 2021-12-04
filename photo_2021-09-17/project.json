@@ -1,0 +1,26 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.58431 0.78431 0.82353"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Anime" ],
+	"title" : "Eva beach",
+	"type" : "scene",
+	"version" : 1,
+	"visibility" : "public",
+	"workshopid" : "2667044381",
+	"workshopurl" : "steam://url/CommunityFilePage/2667044381"
+}

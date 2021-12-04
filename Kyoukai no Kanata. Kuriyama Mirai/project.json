@@ -114,9 +114,9 @@
 	},
 	"preview" : "preview.jpg",
 	"tags" : [ "Anime" ],
-	"title" : "Kyoukai no Kanata: Kuriyama Mirai. ふゆかい です",
-	"type" : "Scene",
-	"version" : 20,
+	"title" : "Kyoukai no Kanata: Kuriyama Mirai",
+	"type" : "scene",
+	"version" : 21,
 	"visibility" : "public",
 	"workshopid" : "2338295019",
 	"workshopurl" : "steam://url/CommunityFilePage/2338295019"

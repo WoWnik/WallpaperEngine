@@ -9,16 +9,17 @@
 	{
 		"ambientcolor" : "0.30000 0.30000 0.30000",
 		"bloom" : false,
-		"bloomhdrfeather" : 0.10000000149011612,
-		"bloomhdrscatter" : 1.6189999580383301,
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
 		"bloomhdrstrength" : 2.0,
 		"bloomhdrthreshold" : 1.0,
 		"bloomstrength" : 2.0,
-		"bloomthreshold" : 0.64999997615814209,
+		"bloomthreshold" : 0.64999998,
 		"camerafade" : true,
 		"cameraparallax" : false,
 		"cameraparallaxamount" : 0.5,
-		"cameraparallaxdelay" : 0.10000000149011612,
+		"cameraparallaxdelay" : 0.1,
 		"cameraparallaxmouseinfluence" : 0.0,
 		"camerapreview" : true,
 		"camerashake" : false,
@@ -30,7 +31,7 @@
 		"farz" : 10000.0,
 		"fov" : 50.0,
 		"hdr" : false,
-		"nearz" : 0.0099999997764825821,
+		"nearz" : 0.0099999998,
 		"orthogonalprojection" : 
 		{
 			"height" : 2160,
@@ -63,7 +64,7 @@
 								"bounds" : "0 1",
 								"friction" : "1 1",
 								"speed" : 1,
-								"strength" : 0.050000000000000003
+								"strength" : 0.050000001
 							},
 							"id" : 0,
 							"textures" : 
@@ -88,6 +89,13 @@
 					"passes" : 
 					[
 						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1.0,
+								"strength" : 0.1
+							},
 							"id" : 154,
 							"textures" : 
 							[
@@ -121,7 +129,7 @@
 								"bounds" : "0.995 0.997",
 								"friction" : "1 1",
 								"speed" : 0.88,
-								"strength" : 0.17999999999999999
+								"strength" : 0.18000001
 							},
 							"id" : 166,
 							"textures" : 
@@ -175,7 +183,7 @@
 								"bounds" : "0 1",
 								"friction" : "1 1",
 								"speed" : 1,
-								"strength" : 0.050000000000000003
+								"strength" : 0.050000001
 							},
 							"id" : 172,
 							"textures" : 
@@ -202,7 +210,10 @@
 						{
 							"constantshadervalues" : 
 							{
-								"strength" : 0.10000000000000001
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1.0,
+								"strength" : 0.1
 							},
 							"id" : 175,
 							"textures" : 
@@ -229,8 +240,8 @@
 							"constantshadervalues" : 
 							{
 								"phasescale" : 2,
-								"speed" : 0.14999999999999999,
-								"strength" : 0.33000000000000002
+								"speed" : 0.15000001,
+								"strength" : 0.33000001
 							},
 							"id" : 180,
 							"textures" : 
@@ -256,11 +267,11 @@
 						{
 							"constantshadervalues" : 
 							{
-								"direction" : 3.1415926535897931,
+								"direction" : 3.1415927,
 								"perspective" : 0,
 								"scale" : 40,
 								"speed" : 3,
-								"strength" : 0.10000000000000001
+								"strength" : 0.1
 							},
 							"id" : 188,
 							"textures" : 
@@ -285,7 +296,10 @@
 						{
 							"constantshadervalues" : 
 							{
-								"speed" : 0.52000000000000002
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 0.51999998,
+								"strength" : 0.1
 							},
 							"id" : 194,
 							"textures" : 
@@ -309,6 +323,13 @@
 					"passes" : 
 					[
 						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1.0,
+								"strength" : 0.1
+							},
 							"id" : 150,
 							"textures" : 
 							[
@@ -333,10 +354,11 @@
 						{
 							"constantshadervalues" : 
 							{
-								"direction" : 2.3561944901923448,
-								"scale" : 24.760000000000002,
-								"speed" : 2.7400000000000002,
-								"strength" : 0.050000000000000003
+								"direction" : 2.3561945,
+								"perspective" : 0.0,
+								"scale" : 24.76,
+								"speed" : 2.74,
+								"strength" : 0.050000001
 							},
 							"id" : 208,
 							"textures" : 
@@ -450,7 +472,7 @@
 			"id" : 233,
 			"instanceoverride" : 
 			{
-				"alpha" : 0.20000000298023224,
+				"alpha" : 0.2,
 				"id" : 234
 			},
 			"locktransforms" : true,
@@ -470,7 +492,7 @@
 			"id" : 242,
 			"instanceoverride" : 
 			{
-				"alpha" : 0.079999998211860657,
+				"alpha" : 0.079999998,
 				"id" : null
 			},
 			"locktransforms" : true,

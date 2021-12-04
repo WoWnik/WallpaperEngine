@@ -1,0 +1,6 @@
+{
+	"clampuvs" : true,
+	"format" : "rg88",
+	"nomip" : true,
+	"nonpoweroftwo" : true
+}

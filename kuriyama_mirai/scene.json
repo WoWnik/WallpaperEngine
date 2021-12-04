@@ -1,0 +1,331 @@
+{
+	"camera" : 
+	{
+		"center" : "443.37115 4.86579 -1.00000",
+		"eye" : "443.37115 4.86579 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999998,
+		"camerafade" : false,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.050000001,
+		"cameraparallaxdelay" : 0.1,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : false,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 1754,
+			"width" : 789
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 19,
+					"name" : "Кофта",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 2.7810266,
+								"perspective" : 0,
+								"scale" : 39.610001,
+								"speed" : 2.53,
+								"strength" : 0.1
+							},
+							"id" : 20,
+							"textures" : [ null, "masks/waterwaves_mask_996eeba0" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 78,
+					"name" : "Юбка",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 2.5535901,
+								"perspective" : 0.0,
+								"scale" : 29.709999,
+								"speed" : 3.72,
+								"strength" : 0.059999999
+							},
+							"id" : 79,
+							"textures" : [ null, "masks/waterwaves_mask_6192861e" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 172,
+					"name" : "Кофта верх",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -0.94677329,
+								"perspective" : 0.02,
+								"scale" : 9.9099998,
+								"speed" : 1.74,
+								"strength" : 0.07
+							},
+							"id" : 173,
+							"textures" : [ null, "masks/waterwaves_mask_91ec5dd6" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 235,
+					"name" : "Капли",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"NOISE" : 0
+							},
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1.0,
+								"strength" : 0.12
+							},
+							"id" : 236,
+							"textures" : [ null, "masks/shake_mask_34e4b62e", "util/white" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 505,
+					"name" : "Лента",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 1.7561443,
+								"perspective" : 0.0,
+								"scale" : 34.66,
+								"speed" : 2.53,
+								"strength" : 0.11
+							},
+							"id" : 506,
+							"textures" : [ null, "masks/waterwaves_mask_f05e2e8b" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 52,
+					"name" : "Рубашка",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -1.5208379,
+								"perspective" : 0.0099999998,
+								"scale" : 29.709999,
+								"speed" : 2.3499999,
+								"strength" : 0.090000004
+							},
+							"id" : 53,
+							"textures" : [ null, "masks/waterwaves_mask_afede71c" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 93,
+					"name" : "Всё",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 0.51999998,
+								"strength" : 0.090000004
+							},
+							"id" : 94,
+							"textures" : [ null, "masks/shake_mask_21b1e14a", "masks/shake_mask_3e541b15" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 103,
+					"name" : "Волосы",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -2.7187388,
+								"perspective" : 0,
+								"scale" : 118.71,
+								"speed" : 1.8099999,
+								"strength" : 0.14
+							},
+							"id" : 104,
+							"textures" : [ null, "masks/waterwaves_mask_7b24b13f" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 212,
+					"name" : "Волны капли",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 0.0,
+								"perspective" : 0,
+								"scale" : 251.81,
+								"speed" : 2.3499999,
+								"strength" : 0.039999999
+							},
+							"id" : 213,
+							"textures" : [ null, "masks/waterwaves_mask_59f30809" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 237,
+					"name" : "Руки",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1.0,
+								"strength" : 0.059999999
+							},
+							"id" : 238,
+							"textures" : [ null, "masks/shake_mask_42ea9cd6", "util/white" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 310,
+					"name" : "Рот",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1.0,
+								"strength" : 0.1
+							},
+							"id" : 311,
+							"textures" : [ null, "masks/shake_mask_fa7855b5", "util/white" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 14,
+			"image" : "models/1609281591864.json",
+			"ledsource" : false,
+			"locktransforms" : false,
+			"name" : "1609281591864",
+			"origin" : "310.16794 884.90674 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.39029 1.39029 1.39029",
+			"size" : "720.00000 1280.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 492,
+			"instanceoverride" : null,
+			"locktransforms" : true,
+			"name" : "Snow perspective",
+			"origin" : "575.67249 845.31525 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/snowperspective.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		},
+		{
+			"angles" : "0.00000 0.00000 0.00000",
+			"id" : 401,
+			"instanceoverride" : 
+			{
+				"id" : 402,
+				"rate" : 0.27000001,
+				"size" : 0.81
+			},
+			"locktransforms" : true,
+			"name" : "Ember",
+			"origin" : "226.96793 -20.30844 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"particle" : "particles/presets/ember.json",
+			"scale" : "1.00000 1.00000 1.00000",
+			"visible" : true
+		}
+	],
+	"version" : 1
+}

@@ -1,0 +1,387 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999998,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.1,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 1280,
+			"width" : 591
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "0.00000 0.00000 0.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"id" : 80,
+			"image" : "models/util/solidlayer.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "Solid",
+			"origin" : "295.50000 640.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "591.00000 1280.00000",
+			"solid" : true,
+			"visible" : true
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 19,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 2.1341126,
+								"perspective" : 0.0099999998,
+								"scale" : 14.4,
+								"speed" : 0.91000003,
+								"strength" : 0.059999999
+							},
+							"id" : 20
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterflow/effect.json",
+					"id" : 23,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phasescale" : 6.23,
+								"speed" : 0.34,
+								"strength" : 0.77999997
+							},
+							"id" : 24,
+							"textures" : [ null, "masks/waterflow_mask_51170f6d", "effects/waterflowphase" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/foliagesway/effect.json",
+					"id" : 52,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phase" : 2,
+								"power" : 1.0599999,
+								"ratio" : 4.6700001,
+								"scale" : 0.029999999,
+								"scrolldirection" : 0,
+								"speeduv" : 1.2,
+								"strength" : 0.23999999
+							},
+							"id" : 53,
+							"textures" : [ null, null, "util/noise" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/skew/effect.json",
+					"id" : 67,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"MODE" : 0,
+								"REPEAT" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"bottom" : 0.050000001,
+								"left" : 0,
+								"right" : 0,
+								"top" : -0.050000001
+							},
+							"id" : 68
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 14,
+			"image" : "models/LesboLove.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "LesboLove",
+			"origin" : "295.50000 640.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "591.00000 1280.00000",
+			"solid" : true,
+			"visible" : false
+		},
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 59,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -2.4087777,
+								"perspective" : 0.0099999998,
+								"scale" : 21.59,
+								"speed" : 0.91000003,
+								"strength" : 0.07
+							},
+							"id" : 60,
+							"textures" : [ null, "masks/waterwaves_mask_2bdd0d30" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 87,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -0.60459858,
+								"perspective" : 0.0,
+								"scale" : 57.560001,
+								"speed" : 1.99,
+								"strength" : 0.050000001
+							},
+							"id" : 88,
+							"textures" : [ null, "masks/waterwaves_mask_1638402e" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 101,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -2.8318896,
+								"perspective" : 0.0099999998,
+								"scale" : 35.98,
+								"speed" : 1.8099999,
+								"strength" : 0.090000004
+							},
+							"id" : 102,
+							"textures" : [ null, "masks/waterwaves_mask_89c8046c" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 124,
+					"name" : "Все",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 1.5707963,
+								"perspective" : 0,
+								"scale" : 10.8,
+								"speed" : 1.09,
+								"strength" : 0.039999999
+							},
+							"id" : 125
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 158,
+					"name" : "Губы",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1.0,
+								"strength" : 0.1
+							},
+							"id" : 159,
+							"textures" : [ null, "masks/shake_mask_57744da5", "masks/shake_mask_596da7ff" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 221,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1.0,
+								"strength" : 0.1
+							},
+							"id" : 222,
+							"textures" : [ null, "masks/shake_mask_b2018a6d", "masks/shake_mask_b984eb6d" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 313,
+					"name" : "Руки",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 0.63,
+								"strength" : 0.059999999
+							},
+							"id" : 314,
+							"textures" : [ null, "masks/shake_mask_bcb133a9", "util/white" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/foliagesway/effect.json",
+					"id" : 843,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phase" : 0.5,
+								"power" : 1.0,
+								"ratio" : 0.30000001,
+								"scale" : 0.050000001,
+								"scrolldirection" : 0.0,
+								"speeduv" : 0.079999998,
+								"strength" : 0.2
+							},
+							"id" : 844,
+							"textures" : [ null, null, "util/noise" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/skew/effect.json",
+					"id" : 881,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bottom" : 0.0099999998,
+								"left" : 0,
+								"right" : 0,
+								"top" : -0.0099999998
+							},
+							"id" : 882
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 34,
+			"image" : "models/LesboLove.json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "LesboLove",
+			"origin" : "295.50000 640.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "591.00000 1280.00000",
+			"solid" : true,
+			"visible" : true
+		}
+	],
+	"version" : 1
+}

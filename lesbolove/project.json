@@ -1,0 +1,26 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Girls" ],
+	"title" : "Love poster",
+	"type" : "scene",
+	"version" : 1,
+	"visibility" : "public",
+	"workshopid" : "2666954000",
+	"workshopurl" : "steam://url/CommunityFilePage/2666954000"
+}
